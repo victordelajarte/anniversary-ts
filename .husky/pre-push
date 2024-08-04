@@ -1,7 +1,4 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-echo '🏗️👷 Checking your project before pushing'
+echo '🏗️👷🏗️👷🏗️👷🏗️👷 Checking your project before pushing 🏗️👷🏗️👷🏗️👷🏗️👷'
 
 npm run check ||
 (

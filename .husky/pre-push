@@ -1,0 +1,14 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '🏗️👷 Checking your project before pushing'
+
+npm run check ||
+(
+        echo '😤🏀👋😤 Get that weak s**t out of here! 😤🏀👋😤 
+                ESLint Check Failed. Make the required changes listed above, add changes and try to push again.'
+        false; 
+)
+
+# If everything passes... Now we can push
+echo '✅✅✅✅ You win this time... I am pushing this now. ✅✅✅✅'

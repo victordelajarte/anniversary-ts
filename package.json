@@ -1,0 +1,16 @@
+{
+  "name": "anniversary-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@total-typescript/tsconfig": "^1.0.4",
+    "@types/node": "^22.1.0",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  }
+}

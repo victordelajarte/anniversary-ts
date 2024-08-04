@@ -2,7 +2,8 @@
   "name": "anniversary-ts",
   "version": "1.0.0",
   "scripts": {
-    "dev": "tsx watch src"
+    "dev": "tsx watch src",
+    "check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",

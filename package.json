@@ -15,5 +15,8 @@
     "husky": "^9.1.4",
     "tsx": "^4.16.5",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "ts-ics": "^1.4.1"
   }
 }

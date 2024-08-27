@@ -1,3 +1,3 @@
-import { data } from "./data";
+import { yearly } from "./data";
 
-console.log({ dataLength: data.length });
+console.log({ dataLength: yearly.length });

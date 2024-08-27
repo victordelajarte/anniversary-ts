@@ -1,4 +1,5 @@
-export const data = [
+// https://fr.wikipedia.org/wiki/Anniversaire_de_mariage
+export const yearly = [
   {
     years: 1,
     gift: "Coton",
